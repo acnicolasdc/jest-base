@@ -46,8 +46,8 @@ test('Its must be true', ()=>{
     expect(boolean).toBeTruthy();
 });
 
-afterEach(()=>  console.log('After each test, show this message'));
-afterAll(()=>  console.log('After all test, show this message'));
+// afterEach(()=>  console.log('After each test, show this message'));
+// afterAll(()=>  console.log('After all test, show this message'));
 
-beforeEach(()=>  console.log('Before each test, show this message'));
-beforeAll(()=>  console.log('Before all test, show this message'));
+// beforeEach(()=>  console.log('Before each test, show this message'));
+// beforeAll(()=>  console.log('Before all test, show this message'));
