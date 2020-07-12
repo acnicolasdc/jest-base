@@ -45,3 +45,6 @@ test('Greater than', ()=>{
 test('Its must be true', ()=>{
     expect(boolean).toBeTruthy();
 });
+
+afterEach(()=>  console.log('After each test, show this message'));
+afterAll(()=>  console.log('After all test, show this message'));
