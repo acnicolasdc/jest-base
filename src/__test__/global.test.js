@@ -48,3 +48,6 @@ test('Its must be true', ()=>{
 
 afterEach(()=>  console.log('After each test, show this message'));
 afterAll(()=>  console.log('After all test, show this message'));
+
+beforeEach(()=>  console.log('Before each test, show this message'));
+beforeAll(()=>  console.log('Before all test, show this message'));
