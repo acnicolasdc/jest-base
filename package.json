@@ -1,0 +1,19 @@
+{
+  "name": "jsbase",
+  "version": "1.0.0",
+  "description": "Jest Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acnicolasdc/jest-base.git"
+  },
+  "author": "acnicolasdc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acnicolasdc/jest-base/issues"
+  },
+  "homepage": "https://github.com/acnicolasdc/jest-base#readme"
+}
