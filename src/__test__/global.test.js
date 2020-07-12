@@ -19,6 +19,11 @@ test('Testing Promise', () => {
     })
 });
 
+test('Testing Async and Await', async () => {
+    const string = await reverseStringPromise('Hello');
+    expect(string).toBe('olleH');
+});
+
 test('Testing Callback', () => {
     reverseString('Hello', (str) => {
         expect(str).toBe('olleH');
