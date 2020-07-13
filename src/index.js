@@ -1,12 +1,17 @@
-const cities = ['New York', 'Medellin', 'Buenos Aires', 'Madrid', 'Tokio'];
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import App from './routes/App';
+import reducer from './reducers';
 
-const radomString = () => {
-    const string = cities[Math.floor(Math.random()* cities.length)];
-    return string;
-}
+import initialState from './initialState';
 
-const mockReverseString = (str, callback) => {
-    callback(str.split("").reverse().join(""))
-}
+const store = createStore(reducer, initialState);
 
-module.exports = radomString;
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app'),
+);
