@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Snapshot Testing the Footers component UI 1`] = `
+<div
+  className="Footer"
+>
+  <p
+    className="Footer-title"
+  >
+    Jest Testing Store
+  </p>
+  <p
+    className="Footer-copy"
+  >
+    2020/07/12
+  </p>
+</div>
+`;
